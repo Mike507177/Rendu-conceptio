@@ -45,7 +45,7 @@ class my_task():
             
             if self.name == "Pump 1" and self.period % 5 != 0:
                 return
-            if self.name == "Pump 2" and self.period % 15 != 0:
+            if self.name == "Pump 2" and self.period % 5 != 0:
                 return
 
             if (self.name == "Pump 1" or self.name == "Pump 2") and tank == 50:
